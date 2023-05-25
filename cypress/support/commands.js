@@ -9,7 +9,7 @@ const password = "secret_sauce"
 
 
 Cypress.Commands.add('login', () => {
-    // cy.viewport(1500,1050)
+    cy.viewport(1500,1050)
     loginPage.navigateToLogin(name, password)
 })
 Cypress.Commands.add('logout', () => {

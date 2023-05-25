@@ -11,6 +11,7 @@ class AddToCartPage {
             for (let i = 0; i < countOfElements; i++) {
                 cy.get(this.addtocart_xp).wait(1000).eq(`${i}`).click()
                 cy.get('button').contains('Add to cart').click()
+                cy.screenshot()
                 cy.xpath(this.backtopage_xp).click()
                 cy.url().should('be.equal', 'https://www.saucedemo.com/inventory.html')
             }

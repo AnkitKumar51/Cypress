@@ -18,11 +18,11 @@
   "license": "ISC",
   "dependencies": {
     "@shelex/cypress-allure-plugin": "^2.34.0",
-    "cypress": "^11.0.1",
     "cypress-xpath": "^2.0.1"
   },
   "devDependencies": {
     "allure-commandline": "^2.20.1",
+    "cypress": "^12.12.0",
     "mocha-allure-reporter": "^1.4.0"
   }
 }
